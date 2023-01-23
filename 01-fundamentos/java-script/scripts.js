@@ -52,3 +52,37 @@ else if (angulo1 || angulo2 || angulo3 < 0){
 else{
     console.log('false');
 }
+
+let num1 = 9;
+let num2 = 3;
+let num3 = 73;
+let isEven = false;
+
+if( (num1 % 2 ===0 || num2 % 2===0 || num3 % 2 ===0)) {
+    isEven = true;
+}
+console.log(isEven);
+
+let numero1 = 9;
+let numero2 = 3;
+let numero3 = 73;
+let isOdd = false;
+
+if( (numero1 % 2 !==0 || numero2 % 2 !==0 || numero3 % 2 !==0 ) ) {
+    isOdd = true;
+}
+console.log(isOdd);
+
+let custo = 10;
+let venda = 30;
+let custoTotal;
+let lucro;
+
+if (custo >= 0 && venda >= 0) {
+    let custoTotal = custo * 1.2;
+    let lucro = (venda - custoTotal) * 1000;
+    console.log(lucro);
+}
+else{
+    console.log('Erro, encerrando programa.')
+}
